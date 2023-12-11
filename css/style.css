@@ -1,0 +1,55 @@
+/* Agregar tipografia */
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: url("../img/alec-jones-WDsmqzxy8Ig-unsplash.jpg");
+    background-size: cover;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    width: 90%;
+    max-width: 1350px;
+    margin: 5% auto;
+    border: 1px solid #ffd900;
+    background: #0000005d;
+    text-align: center;
+    padding: 30px 30px 60px 30px;
+}
+
+h1{
+    color: #fff;
+    font-size: 60px;
+}
+
+p{
+    color: #d4b52b;
+    font-size: 25px;
+}
+
+button{
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border: 2px solid #00d9ff;
+    padding: 12px 30px;
+    margin: 10px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: .4s;
+}
+
+button:hover{
+    background: #000;
+    color: #f5f823;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    transform: scale(1.1);
+}
+
+.primeros{
+    border-bottom: 2px solid #d4b52b;
+    margin-bottom: 25px;
+}
